@@ -1,6 +1,8 @@
 import { NextApiRequest, NextApiResponse } from "next";
 
 export default (request: NextApiRequest, response: NextApiResponse) => {
+  console.log(request.query);
+
   const users = [
     { id: 1, name: 'Marcelo'},
     { id: 2, name: 'Fabiana'},
@@ -9,6 +11,3 @@ export default (request: NextApiRequest, response: NextApiResponse) => {
 
   return response.json(users)
 }
-
-// Serverless
-// Only maintain the server for a small window time, when he call comes.

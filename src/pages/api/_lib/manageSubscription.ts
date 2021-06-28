@@ -27,7 +27,6 @@ export async function saveSubscription(
     userId: userRef,
     status: subscription.status,
     price_id: subscription.items.data[0].price.id,
-    number: Math.random()*100
   }
 
  if (createAction) {

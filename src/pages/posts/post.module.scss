@@ -16,7 +16,7 @@
   time {
     display: block;
     font-size: 1rem;
-    color: var(--grey-300);
+    color: var(--gray-300);
     margin-top: 1.5rem;
   }
 
@@ -24,7 +24,7 @@
     margin-top: 2rem;
     line-height: 2rem;
     font-size: 1.125rem;
-    color: var(--grey-100);
+    color: var(--gray-100);
 
     p, ul {
       margin: 1.5rem 0;
@@ -39,7 +39,7 @@
     }
 
     &.previewContent {
-      background: linear-gradient(var(--grey-100), transparent);
+      background: linear-gradient(var(--gray-100), transparent);
       background-clip: text;
       -webkit-text-fill-color: transparent;
     }
@@ -50,7 +50,7 @@
 .continueReading {
   padding: 2rem;
   text-align: center;
-  background: var(--grey-850);
+  background: var(--gray-850);
   border-radius: 100px;
   font-size: 1.125rem;
   font-weight: bold;
